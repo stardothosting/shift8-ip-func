@@ -1,6 +1,6 @@
 {
   "name": "shift8-ip-func",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Useful functions for calculating IP address ranges and converting IP addresses to their Hex equivalents",
   "main": "shift8-ip-func.js",
   "scripts": {
