@@ -1,8 +1,8 @@
 //const dependency = require('dependency-name');
 //list all requires required by your npm module
 
-const convertIPtoHex = (line) => {
-    // Convert an IP address to a HEX value
+function convertIPtoHex(line) {
+    //alert(line);
     var match = /(\d+\.\d+\.\d+\.\d+)/.exec(line);
     if (match) {
         var matchText = match[1];
@@ -21,13 +21,13 @@ const convertIPtoHex = (line) => {
             while (hex.length < 2) {
                 hex = "0" + hex;
             }
-        return hex;
+            return hex;
         }
         function pad8 (hex) {
             while (hex.length < 8) {
                 hex = "0" + hex;
             }
-        return hex;
+            return hex;
         }
         hex = "0x" + pad8(hex);
         return hex;
@@ -36,7 +36,8 @@ const convertIPtoHex = (line) => {
     }
 }
 
-const getIPRange = (firstHost, lastHost) => {
+// Build array of IPs based on hex value of first and last IP
+function getIPRange(firstHost, lastHost) {
     var hostRange = [];
     for(var i = firstHost; i < lastHost; i++) {   
         var oc4 = (i>>24) & 0xff;
