@@ -1,0 +1,29 @@
+{
+  "name": "shift8-ip-func",
+  "version": "1.0.0",
+  "description": "Useful functions for calculating IP address ranges and converting IP addresses to their Hex equivalents",
+  "main": "shift8-ip-func.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "shift8-ip-func"
+  },
+  "keywords": [
+    "ip",
+    "address",
+    "conversion",
+    "convert",
+    "ip",
+    "to",
+    "hex",
+    "calculate",
+    "ip",
+    "range",
+    "ip",
+    "range"
+  ],
+  "author": "shift8web",
+  "license": "Apache-2.0"
+}
